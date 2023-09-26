@@ -16,6 +16,7 @@ public class Actiondemo {
     public static void main(String[] args) throws InterruptedException {
 
         {
+            //open chrome driver
             ChromeOptions op = new ChromeOptions();
             op.setBinary("C:\\Users\\Coditas\\Downloads\\V4-Automation-master\\V4-Automation-master\\V4-Automation-master\\src\\main\\resources\\chrome\\chrome.exe");
             WebDriver driver = new FirefoxDriver();
