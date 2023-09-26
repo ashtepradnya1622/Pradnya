@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name= "Suite">
+    <listeners>
+<listner class name="test">
+
+</listner>
+    </listeners>
+    <test name="carloan">
+<classes>
+    <class name="Testng1.testo1">
+
+    </class>
+        <class name="Testng1.Test02">
+
+        </class>
+    <class name="Testng1.Test03">
+
+    </class>
+
+</classes>
+    </test>
+    <test name="webloan">
+        <classes>
+            <class name="Testng1.day3">
+                <methods>
+                    <exclude name="mobilelogin"> </exclude>
+
+                </methods>
+
+            </class>
+        </classes>
+
+    </test>
+ </suite>
